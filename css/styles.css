@@ -211,6 +211,8 @@
 
 .stuff-element {
     width: 270px;
+    background: var(--white-color);
+    border-radius: 0px 0px 4px 4px;
 }
 
 /* button */
