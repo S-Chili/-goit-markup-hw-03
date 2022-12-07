@@ -27,7 +27,12 @@
     letter-spacing: 0.03em;
 }
 
+.section {
+    padding-bottom: 94px;
+}
+
 .page-header {
+    padding: 0;
     border: 1px solid rgba(236, 236, 236, 1)
 }
 
@@ -100,7 +105,7 @@
 .nav__item {
     display: flex;
     margin-left: auto;
-    padding-right: 60px;
+    margin-right: 60px;
 }
 
 .nav__item .nav-item + .nav-item {
@@ -126,14 +131,17 @@
 /* decision hero */
 
 .decision {
+    width: 1600px;
+    margin: auto;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    box-sizing: border-box;
     text-align: center;
+    background-color: var(--grey-background);
 }
 
 .decision-title {
-    margin-top: 0;
-    margin-bottom: 30px;
     color: var(--white-color);
-    background-color: var(--grey-background);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -142,6 +150,10 @@
 }
 
 /* features */
+
+.features {
+    padding-top: 94px;
+}
 
 .feat-list {
     display: flex;
@@ -172,10 +184,6 @@
 }
 
 /* section examples*/
-
-.section {
-    padding-bottom: 94px;
-}
 
 .examples {
     display: flex;
@@ -256,13 +264,17 @@
 
 .text {
     margin: 0;
-    margin-bottom: 20px;
-    margin-left: 24px;
+    padding-bottom: 20px;
+    padding-left: 24px;
     font-size: 16px;
     line-height: 1.9;
 }
 
 /* Portfolio - filters */
+
+.portfolio {
+    padding-top: 94px;
+}
 
 .hero {
     margin-top: 0;
@@ -333,9 +345,9 @@
 
 .apps-member {
     margin: 0;
-    margin-top: 30px;
-    margin-bottom: 10px;
-    margin-left: 24px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-left: 24px;
     color: var(--title-text-color);
     font-weight: 500;
     font-size: 16px;
@@ -343,8 +355,8 @@
 } 
 
 .name {
-    margin-top: 20px;
-    margin-bottom: 4px;
+    padding-top: 20px;
+    padding-bottom: 4px;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -355,6 +367,8 @@
 
 .footer {
    background-color: var(--grey-background);
+   padding-top: 60px;
+   padding-bottom: 60px;
 }
 
 .footer-item {
@@ -371,7 +385,6 @@
 
 .logo-footer {
     margin: 0;
-    padding-top: 60px;
     margin-bottom: 20px;
     color: var(--white-color);
     font-family: Raleway;
@@ -398,6 +411,3 @@
     text-decoration: none;
 }
 
-.end {
-    padding-bottom: 60px;
-}
