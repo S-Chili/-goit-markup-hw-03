@@ -29,6 +29,7 @@
 
 .section {
     padding-bottom: 94px;
+    padding-top: 94px;
 }
 
 .page-header {
@@ -105,7 +106,6 @@
 .nav__item {
     display: flex;
     margin-left: auto;
-    margin-right: 60px;
 }
 
 .nav__item .nav-item + .nav-item {
@@ -131,8 +131,6 @@
 /* decision hero */
 
 .decision {
-    width: 1600px;
-    margin: auto;
     padding-top: 200px;
     padding-bottom: 200px;
     box-sizing: border-box;
@@ -141,6 +139,7 @@
 }
 
 .decision-title {
+    margin-bottom: 30px;
     color: var(--white-color);
     font-weight: 900;
     font-size: 44px;
@@ -152,7 +151,7 @@
 /* features */
 
 .features {
-    padding-top: 94px;
+    padding-bottom: 0;
 }
 
 .feat-list {
@@ -254,7 +253,7 @@
     text-align: center;
 }
 
-.team-job {
+.portfolio-card {
     margin: 0;
     margin-bottom: 30px;
     font-size: 16px;
@@ -346,7 +345,7 @@
 .apps-member {
     margin: 0;
     padding-top: 30px;
-    padding-bottom: 10px;
+    margin-bottom: 4px;
     padding-left: 24px;
     color: var(--title-text-color);
     font-weight: 500;
@@ -356,7 +355,6 @@
 
 .name {
     padding-top: 20px;
-    padding-bottom: 4px;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
