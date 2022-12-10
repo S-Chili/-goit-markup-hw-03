@@ -283,6 +283,7 @@
 .filter {
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
 }
 
 .filter-item:not(:last-child) {
@@ -291,8 +292,6 @@
 
 .filter-item {
     display: block;
-    margin-bottom: 50px;
-
 }
 
 .filter-button {
@@ -370,7 +369,6 @@
 }
 
 .footer-item {
-    margin-bottom: 9px;
     color: var(--white-color);
     font-style: normal;
     text-decoration: none;
@@ -392,7 +390,6 @@
 }
 
 .footer-address {
-    margin-bottom: 9px;
     color: rgba(255, 255, 255, 0.6);
     font-style: normal;
     text-decoration: none;
@@ -409,3 +406,10 @@
     text-decoration: none;
 }
 
+.last > li {
+    margin-bottom: 9px;
+} 
+
+.last > li:last-child {
+    margin-bottom: 0;
+  }
