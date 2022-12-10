@@ -50,14 +50,6 @@
     align-items: center;
 }
 
-.blue-logo {
-    color: var(--accent-color);
-    font-family: Raleway;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-}
-
 .logo {
     color: black;
     font-family: Raleway;
@@ -384,16 +376,6 @@
     color: var(--accent-color);
 }
 
-.logo-footer {
-    margin: 0;
-    margin-bottom: 20px;
-    color: var(--white-color);
-    font-family: Raleway;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-}
-
 .footer-address {
     color: rgba(255, 255, 255, 0.6);
     font-style: normal;
@@ -409,7 +391,25 @@
     display: block;
     width: 145px;
     text-decoration: none;
+    margin: 0;
+    margin-bottom: 20px;
+    color: var(--accent-color);
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
 }
+
+.logo-footer {
+    margin: 0;
+    margin-bottom: 20px;
+    color: var(--white-color);
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+
 
 .last > li {
     margin-bottom: 9px;
