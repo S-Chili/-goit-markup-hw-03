@@ -392,7 +392,6 @@
     width: 145px;
     text-decoration: none;
     margin: 0;
-    margin-bottom: 20px;
     color: var(--accent-color);
     font-family: Raleway;
     font-weight: 700;
@@ -410,6 +409,9 @@
     line-height: 1.19;
 }
 
+.foot-logo {
+   margin-bottom: 20px; 
+}
 
 .last > li {
     margin-bottom: 9px;
